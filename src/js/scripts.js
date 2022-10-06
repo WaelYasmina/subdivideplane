@@ -31,7 +31,6 @@ const planeMesh = new THREE.Mesh(
 );
 planeMesh.rotateX(-Math.PI / 2);
 scene.add(planeMesh);
-planeMesh.name = 'ground';
 
 const grid = new THREE.GridHelper(20, 20);
 scene.add(grid);
